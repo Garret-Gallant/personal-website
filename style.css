@@ -1,5 +1,69 @@
 body {
-    background: blue;
-  }
+    background: #303030;
+    font-family: monospace;
+    font-size: 16px;
+}
 
-  
+img {
+    float: left;
+    position: absolute;
+    left: 140px;
+    top: 12px;
+    height: 80px;
+    width: 275px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: #55d6aa;
+    height: 84px;
+    width: 100%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    right: 40px;
+    margin-left: 60px;
+    padding-top: 32px;
+
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    color: #444;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color:#000
+
+}
+
+
+
+
+
+
+
+
