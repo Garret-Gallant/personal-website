@@ -1,8 +1,7 @@
-/* UNUSED h1
+const input = document.getElementById("whoareyou");
+input.addEventListener("click", function() {
+    alert("I got clicked!");
+  });
 
-const h1 = document.createElement("h1");
-h1.textContent = "missingno";
 
-document.querySelector("body").appendChild(h1);
 
-*/
