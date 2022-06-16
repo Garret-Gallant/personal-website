@@ -1,7 +1,34 @@
 body {
-    background: #303030;
+    background-color: #303030;
+    color:#55d6aa;
     font-family: monospace;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+#home {
+    color: #55d6aa;
+    text-align: center;
+}
+
+#about {
+    color: #55d6aa;
+    text-align: center;
+}
+
+#contact {
+    color: #55d6aa;
+}
+
+.bodycontain ul li{
+    list-style: none;
+    padding-top: 8px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#work {
+    color: #55d6aa;
+    text-align: center;
 }
 
 img {
@@ -45,7 +72,6 @@ nav li{
     right: 40px;
     margin-left: 60px;
     padding-top: 32px;
-
     position: relative;
 }
 
@@ -56,9 +82,10 @@ nav a{
 }
 
 nav a:hover{
-    color:#000
-
+    color:#000;
 }
+
+
 
 
 
