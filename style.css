@@ -47,10 +47,26 @@ body {
     right: 400px;
 }
 
+.about #img2{
+    position: absolute;
+    right: 300px;
+    height: 40%;
+    width: auto;
+}
+
+.about #img3{
+    position: absolute;
+    right: 78%;
+    height: 10%;
+    width: auto;
+    bottom: 40%;
+}
+
 .about #whoareyou{
     position: absolute;
-    top: 40%;
-    left: 2%;
+    top: 48%;
+    left: 12%;
+    text-decoration:underline;
 }
 
 .home img{
